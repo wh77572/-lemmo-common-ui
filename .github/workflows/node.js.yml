@@ -40,4 +40,4 @@ jobs:
           registry-url: https://npm.pkg.github.com/wh77572
       - run: npm publish
         env:
-          NODE_AUTH_TOKEN: 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
+          NODE_AUTH_TOKEN: ${{NPM_TOKEN}}
