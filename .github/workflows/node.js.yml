@@ -27,15 +27,3 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run build --if-present
-
-  publish:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 16.x
-          registry-url: https://registry.npmjs.org/
-      - run: 'npm config set //npm.pkg.github.com/wh77572/: _authToken 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'
-      - run: npm publish --access=public
