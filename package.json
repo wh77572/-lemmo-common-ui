@@ -2,6 +2,9 @@
   "private": true,
   "name": "@lemmo/common-ui",
   "version": "1.0.0",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/wh77572/-lemmo-common-ui"
+  },
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
