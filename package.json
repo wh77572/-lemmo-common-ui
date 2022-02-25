@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "common-ui",
+  "name": "lemmo_common-ui",
   "version": "1.0.0",
   "scripts": {
     "start": "dumi dev",
