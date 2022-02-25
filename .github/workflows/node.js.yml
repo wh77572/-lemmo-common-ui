@@ -29,15 +29,15 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
 
-    publish:
-        needs: build
-        runs-on: ubuntu-latest
-        steps:
-          - uses: actions/checkout@v1
-          - uses: actions/setup-node@v1
-            with:
-              node-version: 16.x
-              registry-url: https://npm.pkg.github.com/wh77572
-          - run: npm publish
-            env:
-              NODE_AUTH_TOKEN: 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
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 16.x
+          registry-url: https://npm.pkg.github.com/wh77572
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: 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
