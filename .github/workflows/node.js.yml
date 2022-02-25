@@ -37,4 +37,5 @@ jobs:
         with:
           node-version: 16.x
           registry-url: https://npm.pkg.github.com/wh77572
+      - run: 'npm config set //npm.pkg.github.com/wh77572/: _authToken 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'
       - run: npm publish --access=public
