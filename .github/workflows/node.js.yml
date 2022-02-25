@@ -37,6 +37,4 @@ jobs:
         with:
           node-version: 16.x
           registry-url: https://npm.pkg.github.com/wh77572
-      - run: npm publish
-        env:
-          TOKEN: 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
+      - run: npm publish --access=public
