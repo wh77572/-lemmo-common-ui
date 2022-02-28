@@ -1,5 +1,5 @@
 {
-  "name": "lemmo-ui",
+  "name": "lemmo",
   "version": "1.0.0",
   "scripts": {
     "start": "dumi dev",
