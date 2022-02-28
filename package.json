@@ -15,7 +15,6 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/wh77572"
   },
-  "repository": "https://github.com/wh77572/lemmo-ui",
   "module": "es/index.js",
   "typings": "es/index.d.ts",
   "gitHooks": {
