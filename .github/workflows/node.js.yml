@@ -28,7 +28,6 @@ jobs:
     - run: npm i -g npm@latest
     - run: npm ci
     - run: npm run build
-    - run: npm login --scope=@OWNER --registry=https://npm.pkg.github.com
+    - run: npm adduser --registry=https://npm.pkg.github.com:_authToken=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
     - run: npm whoami
-#    - run: npm adduser --registry=https://npm.pkg.github.com:_authToken=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
     - run: npm publish --access=public
