@@ -25,6 +25,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+    - run: npm install -g npm
     - run: npm ci
     - run: npm run build
     - run: npm adduser //--registry=http://registry.npmjs.org/:_authToken=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
