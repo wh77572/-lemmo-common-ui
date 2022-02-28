@@ -28,5 +28,5 @@ jobs:
     - run: npm install -g npm
     - run: npm ci
     - run: npm run build
-    - run: npm adduser //--registry=http://registry.npmjs.org/:_authToken=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
+    - run: npm adduser --registry=http://registry.npmjs.org/:_authToken=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
     - run: npm publish --access=public
