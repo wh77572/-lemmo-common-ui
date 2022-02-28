@@ -13,7 +13,7 @@
     "prepublishOnly": "npm run build"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/wh77572"
+    "registry": "https://registry.npmjs.org/"
   },
   "module": "es/index.js",
   "typings": "es/index.d.ts",
