@@ -27,5 +27,6 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run build
+    - npm whoami
 #    - run: npm adduser --registry=https://npm.pkg.github.com:_authToken=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
     - run: npm publish --access=public
